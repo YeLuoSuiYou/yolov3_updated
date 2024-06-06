@@ -1,0 +1,22 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /DATA2_4T/shared/datasets/lisa-traffic-light # dataset root dir
+train: train/images
+val: val/images
+test: # test images (optional)
+
+# Classes
+names:
+  0: go
+  1: go forward
+  2: go forward traffic light
+  3: go left
+  4: go left traffic light
+  5: go traffic light
+  6: stop
+  7: stop left
+  8: stop left traffic light
+  9: stop traffic light
+  10: warning
+  11: warning left
+  12: warning left traffic light
+  13: warning traffic light
